@@ -1,8 +1,5 @@
 # Open Customer Data Api
 
-
-> Linha adicional de texto informativo sobre o que o projeto faz. Sua introdução deve ter cerca de 2 ou 3 linhas. Não exagere, as pessoas não vão ler.
-
 ### About it
 
 This is a open source api to simulate a data sharing using a consent base concept. Basicly to share any client data you need
