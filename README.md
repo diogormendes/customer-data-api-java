@@ -81,7 +81,7 @@ Permissions allowed:
 - AUTHORISED
 - REJECTED
 ```
-curl --location --request PUT '<HOST>:8080/test-api/consents/v1/consents/urn:bank:a8989a61-0acd-4b41-b445-6e8b03d2f9f7' \
+curl --location --request PUT '<HOST>:8080/test-api/consents/v1/consents/<CONSENTID>' \
 --header 'Content-Type: application/json' \
 --header 'Authorization: Bearer <TOKEN>' \
 --data '{
