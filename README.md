@@ -90,21 +90,3 @@ curl --location --request PUT '<HOST>:8080/test-api/consents/v1/consents/<CONSEN
     }
 }'
 ```
-
-How to get a consent
-
-```
-<exemplo_de_uso>
-```
-
-How to get list of accounts
-
-```
-<exemplo_de_uso>
-```
-
-How to get an accounts
-
-```
-<exemplo_de_uso>
-```
