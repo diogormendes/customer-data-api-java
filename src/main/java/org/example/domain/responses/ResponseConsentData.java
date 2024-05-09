@@ -20,7 +20,7 @@ public class ResponseConsentData {
     @JsonProperty("permission")
     private String permission;
 
-    @JsonProperty("expirationDateTime")
+    @JsonProperty("expirationDatTime")
     private String expirationDateTime;
 
     @JsonProperty("creationDateTime")

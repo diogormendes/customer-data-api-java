@@ -33,7 +33,6 @@ public class AccountService {
     }
 
     public ResponseAccount getAccount(UUID accountId, String consentId) {
-        Utils.validateConsent(consentId, consentRepository, EnumConsentPermissions.ACCOUNTS_READ);
         Account entity = accountRepository.findById(accountId)
                 .orElseThrow(() -> new HttpStatusException(HttpStatus.NOT_FOUND, "Account Id " + accountId + " not found"));
 

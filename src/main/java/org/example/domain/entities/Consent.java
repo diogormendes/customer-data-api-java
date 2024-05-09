@@ -58,8 +58,7 @@ public class Consent {
                 .status(status.name())
                 .permission(consentPermissions.name())
                 .expirationDateTime(expirationDateTime)
-                .creationDateTime(creationDateTime)
-                .statusUpdateDateTime(statusUpdateDateTime));
+                .creationDateTime(creationDateTime));
     }
 
     @Converter

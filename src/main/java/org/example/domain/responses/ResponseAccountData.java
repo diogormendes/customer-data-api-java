@@ -11,7 +11,7 @@ public class ResponseAccountData {
     @JsonProperty("bank")
     private String bank;
 
-    @JsonProperty("accountNumber")
+    @JsonProperty("accountNumero")
     private String accountNumber;
 
     public ResponseAccountData id(String id) {

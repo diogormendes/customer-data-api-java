@@ -12,8 +12,6 @@ import org.example.domain.responses.ResponseConsent;
 import org.example.repositories.ConsentRepository;
 import org.example.services.validate.ConsentValidator;
 import org.example.services.validate.ExpirationDateValidator;
-import org.slf4j.Logger;
-import org.slf4j.LoggerFactory;
 import jakarta.transaction.Transactional;
 import jakarta.validation.constraints.NotNull;
 
@@ -23,8 +21,6 @@ import java.util.*;
 @Singleton
 @Transactional
 public class ConsentService {
-
-    private static final Logger LOG = LoggerFactory.getLogger(ConsentService.class);
 
     @Inject
     ConsentRepository consentRepository;
