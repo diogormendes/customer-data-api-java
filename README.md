@@ -26,7 +26,7 @@ Linux e macOS:
 ```
 make run-local
 ```
-The host will be printed when the docker spins up
+The host will be http://localhost:8080 when the docker spins up
 
 ## ☕ Using Customer Data Api
 
@@ -67,7 +67,7 @@ Permissions allowed:
 - ACCOUNTS_READ
 - CREDIT_CARD_READ
 ```
-curl --location '<HOST>:8080/test-api/consents/v1/consents' \
+curl --location 'http://localhost:8080/test-api/consents/v1/consents' \
 --header 'Content-Type: application/json' \
 --header 'Authorization: Bearer <TOKEN>' \
 --data '{
@@ -83,7 +83,7 @@ Permissions allowed:
 - AUTHORISED
 - REJECTED
 ```
-curl --location --request PUT '<HOST>:8080/test-api/consents/v1/consents/<CONSENTID>' \
+curl --location --request PUT 'http://localhost:8080/test-api/consents/v1/consents/<CONSENTID>' \
 --header 'Content-Type: application/json' \
 --header 'Authorization: Bearer <TOKEN>' \
 --data '{
