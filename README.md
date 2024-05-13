@@ -13,7 +13,7 @@ Antes de começar, verifique se você atendeu aos seguintes requisitos:
 
 - Have Git installed
 - Have Docker host installed and running
-- Have Gradler installed
+- Have Gradle installed
 - Have java 17 Amazon Coretto installed
 
 
