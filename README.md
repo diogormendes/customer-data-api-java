@@ -51,7 +51,14 @@ Payload
 
 echo -n '{"scope": "consents","client_id": "client1"}' | base64
 ```
-The api supports 2 scopes (consents, accounts)
+The api supports 2 scopes (consents, accounts). The consentId should go as a scope in the access token as bellow
+
+```
+{
+  "scope": "consents consent:urn:bank:xxxx",
+  "client_id": "client1"
+}
+```
 
 You must specify each for each call you make
 
