@@ -53,7 +53,7 @@ echo -n '{"scope": "consents","client_id": "client1"}' | base64
 ```
 The api supports 2 scopes (consents, accounts). The consentId should go as a scope in the access token as bellow
 
-```
+```json
 {
   "scope": "consents consent:urn:bank:xxxx",
   "client_id": "client1"
