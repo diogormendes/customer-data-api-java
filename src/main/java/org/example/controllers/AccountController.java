@@ -16,7 +16,7 @@ import org.slf4j.LoggerFactory;
 import java.util.UUID;
 
 @RolesAllowed({"ACCOUNTS_READ"})
-@Controller("/test-api/account")
+@Controller("/test-api/accounts")
 public class AccountController {
     private static final Logger LOG = LoggerFactory.getLogger(AccountController.class);
     private final AccountService service;
